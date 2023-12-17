@@ -1,0 +1,19 @@
+server:
+  port: 8078
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/
+    username: 
+    password: 
+  redis:
+    database: 1
+    host: 
+    port: 
+    timeout: 5000
+    password: 
+  rabbitmq:
+    host: 
+    port: 5672
+    password: 
+    username: 
